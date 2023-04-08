@@ -37,7 +37,7 @@ public class TestWeb {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Миргалиева Лейла");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79171112223");
 //        List<WebElement> textFields = driver.findElements(By.className("input__control"));
-//        textFields.get(0).sendKeys("Миргалиева Лейла");
+//        textFields.get(0).sendKeys("Миргалиева Лиля");
 //        textFields.get(1).sendKeys("+79171112223");
         driver.findElement(By.cssSelector(".checkbox__box")).click();
         driver.findElement(By.cssSelector("button")).click();
